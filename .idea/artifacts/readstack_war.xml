@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="readstack:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>readstack</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="readstack-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="readstack:war exploded" />
+    </root>
+  </artifact>
+</component>
